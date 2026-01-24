@@ -3,28 +3,15 @@ import { Experience } from './experience.model';
 export const EXPERIENCE_DATA: Experience[] = [
   {
     id: 1,
-    role: 'Java Full-Stack Developer Trainee',
-    company: 'CARE Analytics and Advisory Pvt. Ltd.',
-    duration: 'Jan 2026 – Present',
+    role: 'Executive Performance Engineer',
+    company: 'Vodafone Intelligent Solutions (VOIS)',
+    duration: 'May 2025 – Present',
     location: 'India',
     description: [
-      'Worked on enterprise-level web applications using Java and Angular.',
-      'Developed REST APIs and integrated frontend with backend services.',
-      'Collaborated with senior developers and followed clean architecture.'
+      'Managed 24/7 production support for Linux-based systems, handling troubleshooting, log analysis, and performance tuning.',
+      'Administered AWS services including EC2, IAM, and CloudWatch for application hosting and monitoring.',
+      'Managed incidents using the ELK Stack, and coordinating across support teams.'
     ],
     technologies: ['Java', 'Spring Boot', 'Angular', 'MySQL']
-  },
-  {
-    id: 2,
-    role: 'Software Developement Intern',
-    company: 'SpidronTech LLP',
-    duration: 'Mar 2025 – Oct 2025',
-    location: 'India',
-    description: [
-      'Built Web APIs using ASP.NET Core.',
-      'Used Dapper with stored procedures for database operations.',
-      'Worked on invoice and reporting modules.'
-    ],
-    technologies: ['ASP.NET Core', 'Dapper', 'SQL Server']
   }
 ];
