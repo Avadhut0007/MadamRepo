@@ -56,5 +56,27 @@ export const SKILLS_DATA: Skill[] = [
     icon: 'assets/skills/datacleaning.png',
     level: 'Advanced',
     description: 'Handling missing values, duplicates, and inconsistent datasets'
+  },
+  {
+  id: 9,
+  name: 'Elastic',
+  icon: 'assets/skills/elastic.png',
+  level: 'Advanced',
+  description: 'Experience with Elasticsearch for indexing, searching, and analyzing large volumes of structured and unstructured data'
+  },
+  {
+    id: 10,
+    name: 'Grafana',
+    icon: 'assets/skills/grafana.png',
+    level: 'Advanced',
+    description: 'Built interactive dashboards and visualizations to monitor metrics, logs, and system performance in real time'
+  },
+  {
+    id: 11,
+    name: 'Kibana',
+    icon: 'assets/skills/kibana.png',
+    level: 'Advanced',
+    description: 'Used Kibana for log analysis, data exploration, and creating visual dashboards on top of Elasticsearch data'
   }
+
 ];
